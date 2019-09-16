@@ -1,0 +1,282 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+.title {
+	font-family: 'Open Sans', Helvetica;
+	font-weight: 800;
+	display: block;
+	color: #545773;
+	margin-left: 35PX;
+	font-size: 25px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+
+.title h1 {
+	font-size: 60px;
+	margin-bottom: -15px;
+}
+
+
+.een {
+	background-color: #FFF7E8;
+}
+
+	.nummer {
+		margin-right: 40px;
+		padding-top: 20px;
+		font-weight: 800;
+		color: #F29221;
+		flex: 0;
+
+	}
+
+		.jaartal {
+			font-weight: 400;
+		}
+
+img {
+	height: 20px;
+	align-self: center;
+	flex: 0;
+}
+
+.content {
+	flex: 2;
+}
+
+button {
+	border: none;
+	border-style: none;
+	background: none;
+	padding: 0;
+}
+
+button:focus {
+	outline: none;
+}
+
+
+
+
+.twee {
+	background-color: #FFEFED;
+}
+
+	.nummer2 {
+		margin-right: 40px;
+		padding-top: 20px;
+		font-weight: 800;
+		color: #DE311A;
+		flex: 0;
+
+	}
+
+		.html-logo {
+			margin-right: 40px;
+			margin-left: 70px;
+		}
+
+
+
+.drie {
+	background-color: #F0F3FF;
+}
+
+	.nummer3 {
+		margin-right: 40px;
+		padding-top: 20px;
+		font-weight: 800;
+		color: #08269E;
+		flex: 0;
+
+	}
+
+		.comp {
+			height: 350px;
+			margin-left: 70px;
+			margin-right: 40px;
+		}
+
+
+.vier {
+	background-color: #EDFFE2;
+}
+
+	.nummer4 {
+		margin-right: 40px;
+		padding-top: 20px;
+		font-weight: 800;
+		color: #51B017;
+		flex: 0;
+
+	}
+
+		.creating {
+			height: 325px;
+			margin-left: 70px;
+			margin-right: 40px;
+		}
+
+
+.vijf {
+
+	background-color: #FFF2FE;
+}
+
+
+	.nummer5 {
+		margin-right: 40px;
+		padding-top: 20px;
+		font-weight: 800;
+		color: #DB6CD0;
+		flex: 0;
+
+	}
+
+		.iphone {
+			height: 275px;
+			margin-left: -80px;
+			margin-right: 40px;
+		}
+
+
+
+
+.zes {
+	background-color: #FFEFED;
+}
+
+	.nummer6 {
+		margin-right: 40px;
+		padding-top: 20px;
+		font-weight: 800;
+		color: #DE311A;
+		flex: 0;
+
+	}
+
+		.chrome {
+			height: 250px;
+			margin-left: 70px;
+			margin-right: 40px;
+		}
+
+
+
+
+.zeven {
+	background-color: #F0F3FF;
+}
+
+	.nummer7 {
+		margin-right: 40px;
+		padding-top: 20px;
+		font-weight: 800;
+		color: #08269E;
+		flex: 0;
+
+	}
+
+	.responsive {
+			height: 250px;
+			margin-left: 30px;
+			margin-right: 20px;
+		}
+
+
+
+
+
+.acht {
+	background-color: #EDFFE2;
+}
+
+	.nummer8 {
+		margin-right: 40px;
+		padding-top: 20px;
+		font-weight: 800;
+		color: #51B017;
+		flex: 0;
+
+	}
+
+	.material {
+			height: 250px;
+			margin-left: 70px;
+			margin-right: 40px;
+		}
+
+footer {
+	font-family: 'Open Sans', 'Helvetica';
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	color: #545773;
+	margin: 40px;
+}
+
+
+
+.timeline-block {
+	padding: 30px;
+	padding-right: 60px;
+	margin: 30px;
+	border-radius: 30px;
+	color: #545773;
+	font-family: 'Open Sans', Helvetica;
+	font-weight: 800;
+	font-size: 25px;
+	cursor: pointer;
+
+}
+
+	.timeline-block-content {
+		display: flex;
+	}
+
+
+		.timeline-block-hidden-content {
+			display: none;
+			font-weight: 300;
+		}
+
+			figure > img {
+				height: 250px;
+			}
+
+				.timeline-block-hidden-content > figure {
+					margin: 0px;
+					float: left;
+
+				}
+
+					.timeline-block-hidden-content.show {
+						display: flex;
+						flex-flow: row;	
+
+					}
+
+						.timeline-block.toggle button > img {
+						    transform: rotate(90deg);
+						}
+
+
+@media only screen and (max-width: 768px) {
+/* iPad */
+	.timeline-block-hidden-content.show {
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+	}
+}
+
+
+@media only screen and (max-width: 375px) {
+/* iPhone 8 */
+	.timeline-block-hidden-content.show {
+		flex-flow: column;
+		text-align: right;
+	}
+}
